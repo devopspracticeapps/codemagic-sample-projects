@@ -11,7 +11,7 @@ workflows:
         - ios_config
       ios_signing:
         distribution_type: app_store # or: ad_hoc | development | enterprise
-        bundle_identifier: $BUNDLE_ID
+        bundle_identifier: com.devopspracticeapps.devopspoc
       vars:
         XCODE_WORKSPACE: "swiftly.xcworkspace"
         XCODE_SCHEME: "swiftly"
